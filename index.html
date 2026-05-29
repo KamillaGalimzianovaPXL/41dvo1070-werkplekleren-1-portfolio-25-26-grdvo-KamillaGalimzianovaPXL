@@ -6,229 +6,250 @@
     <title>Portfolio - Kamilla Galimzianova</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <main>
-        <section class="cover">
-            <div>
-                <p class="prof">Web Designer</p>
-                <p class="dit-jaar">2026</p>
+
+    <header class="header">
+        <div class="container header-inner">
+            <div class="logo">
+                <span class="logo-circle">KG</span>
+                <span class="logo-text">Kamilla Galimzianova</span>
             </div>
-            <h1>Portfolio</h1>
-            <p class="naam">Kamilla Galimzianova</p>
-        </section>
+            <nav class="nav">
+                <a href="#about">Over</a>
+                <a href="#projects">Projecten</a>
+                <a href="#wpl2">WPL2 Case</a>
+                <a href="#andere">Andere</a>
+                <a href="wpl.html">WPL1 & WPL2</a>
+            </nav>
+        </div>
+    </header>
 
-        <section class="strokinfo">
-            <p class="voornaam">Kamilla Galimzianova</p>
-            <p>Web Designer</p>
-        </section>
-
-        <section class="cv-info">
-            <div class="boven-deel">
-                <div class="profiel-foto">
-                    <img src="./image & icons/avatar.png" alt="">
+    <section id="hero" class="hero section">
+        <div class="container hero-inner">
+            <div class="hero-content">
+                <p class="subtitle">PORTFOLIO / 2025–2026</p>
+                <h1 class="main-title">Creativiteit creëren met , <span class="highlight">gevoel</span>,<br>niet alleen design.</h1>
+                <p class="hero-text">Hallo! Mijn naam is Kamilla en ik studeer Digital Design aan Hogeschool PXL. Ik vind het leuk om creatieve ideeën om te zetten in moderne en gebruiksvriendelijke visuele projecten.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">Bekijk projecten</a>
+                    <a href="#contact" class="btn btn-outline">Neem contact op</a>
                 </div>
-                <div class="boven-recht-deel">
-                    <h2>Kamilla <br> Galimzianova</h2>
-                    <div class="prive-info">
-                        <ul>
-                            <li><img src="./image & icons/gebortedatum.svg" alt="">06/03/2003</li>
-                            <li><img src="./image & icons/Tel.svg" alt="">+32 465 63 06 03</li>
-                            <li><img src="./image & icons/E-mail.svg" alt="">kamillagalimzianova@gmail.com</li>
-                            <li><img src="./image & icons/Locatie.svg" alt="">Wellen, België</li>
-                        </ul>
-                    </div>
-                    <p>Hallo! Mijn naam is Kamilla, ik ben 22 jaar oud en studeer webdesign aan de Hogeschool PXL. <br>
-                        Ik hou van het ontwerpen van websites en het werken met visueel design en kleur. Daarnaast werk ik graag met code, zoals HTML, CSS en JavaScript. <br>
-                        Ook heb ik een opleiding afgerond bij CVO HIK, waar ik kennis heb opgedaan van CMS-systemen en UI/UX-design. Mijn doel is om mij verder te ontwikkelen als professioneel webdesigner.</p>
-                </div> 
             </div>
+            <div class="hero-image-wrapper">
+                <img src="./image & icons/Foto voor CV-Linkedin.png" alt="Laptop op bureau" class="hero-img">
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            SCROLL <div class="line"></div>
+        </div>
+    </section>
 
-            <section class="layout">
-                <div class="left">
-
-                    <h3>Onderwijs & Opleiding</h3>
-
-                    <div class="opleiding">
-
-                        <div class="jaar-column">
-                            <p class="jaar">2019-2023</p> 
-                            <img src="./image & icons/jaar-lengte.svg" alt="">
-                        </div>
-                        <div class="onderwijs">
-                            <h4>
-                                <span>VZW INSTITUUT VAN HEILIG GRAF</span><br>
-                                Diploma van Technisch Secundair <br> Onderwijs
-                            </h4>
-                            <p>
-                                Gemeente: Turnhout <br>
-                                Land: België <br>
-                                Studierichting: Creatie en Mode
-                            </p>
-                        </div>
-
-                    </div>
-
-                    <div class="opleiding">
-                        <div class="jaar-column">
-                            <p class="jaar">2024-2025</p>
-                            <img src="./image & icons/jaar-lengte.svg" alt="">
-                        </div>
-                     
-                        <div class="onderwijs">
-                            <h4>
-                                <span>CENTRUM VOOR <br>VOLWASSENENONDERWIJS HIK</span><br>
-                                Diploma Secundair Onderwijs
-                            </h4>
-                            <p>
-                                Gemeente: Geel<br>
-                                Land: België <br>
-                                Studierichting: Webdesign
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="opleiding">
-                        <div class="jaar">2025-NU</div>
-                        <div class="onderwijs">
-                            <h4>Hogeschool PXL</h4>
-                            <p>
-                                Gemeente: Hasselt<br>
-                                Land: België <br>
-                                Studierichting: Webdesign
-                            </p>
-                        </div>
-                    </div>
-
+    <section id="about" class="about section">
+        <div class="container">
+            <p class="subtitle">01 — OVER MEZELF</p>
+            <h2 class="section-title">Designer met een <span class="highlight">creatieve</span> visie.</h2>
+            
+            <div class="layout-grid-sidebar">
+                <div class="text-column">
+                    <p>Mijn naam is Kamilla en ik studeer momenteel Digitale Vormgeving aan Hogeschool PXL. Voor mij is design meer dan het creëren van mooie beelden; het is een manier om ideeën, emoties en de kernwaarden van een merk helder over te brengen.</p>
+                    <p>Naast mijn huidige opleiding beschik ik over een diploma secundair onderwijs en een diploma webdesign, behaald na een eenjarige opleiding bij CVO-HIK. Ik heb ervaring met het ontwikkelen van huisstijlen, webdesign en het creëren van zowel drukwerk als digitale content, zoals logo’s, presentaties en social media uitingen.</p>
+                    <p>Ik werk vlot met software zoals Adobe Photoshop, Illustrator, InDesign en Figma. Hierbij besteed ik veel aandacht aan details, compositie en typografie, waarbij ik er altijd naar streef dat het ontwerp aansluit bij de doelstellingen van de organisatie. Daarnaast heb ik kennis van HTML, CSS, JavaScript en CMS-systemen zoals WordPress. Ook heb ik vaardigheden op het gebied van digitaal tekenen en illustreren.</p>
                 </div>
-
-                <div class="right">
-
-                    <div class="card comp">
-                        <h3>Computer Vaardigheden</h3>
-                        <div class="icons">
-                            <img src="./image & icons/microsoft office.svg">
-                            <img src="./image & icons/abobe li.svg">
-                            <img src="./image & icons/abobe ps.svg">
-                            <img src="./image & icons/abobe id.svg">
-                            <img src="./image & icons/adobe Ae.svg">
-                            <img src="./image & icons/Figma.svg">
-                            <img src="./image & icons/WordPress.svg">
-                            <img src="./image & icons/html.svg">
-                            <img src="./image & icons/css.svg">
-                            <img src="./image & icons/js.svg">
+                
+                <div class="sidebar-box light-sidebar">
+                    <div class="sidebar-section">
+                        <h4 class="sidebar-title">KERNCOMPETENTIES</h4>
+                        
+                        <div class="info-item">
+                            <strong>Frontend</strong>
+                            <span>HTML/CSS, JavaScript</span>
+                        </div>
+                        <div class="info-item">
+                            <strong>Design</strong>
+                            <span>Adobe Photoshop, Illustrator, InDesign, Figma</span>
+                        </div>
+                        <div class="info-item">
+                            <strong>Animation</strong>
+                            <span>Adobe After Effects</span>
+                        </div>
+                        <div class="info-item border-none">
+                            <strong>CMS</strong>
+                            <span>WordPress, Elementor</span>
                         </div>
                     </div>
-
-                    <div class="bottom">
-                        <div class="card talen">
-                            <h3>Talen</h3>
-                            <div class="taal">
-                                <h4>Nederlands</h4>
-                                <div class="dots">
-                                    <span class="dot active"></span>
-                                    <span class="dot active"></span>
-                                    <span class="dot active"></span>
-                                    <span class="dot active"></span>
-                                    <span class="dot active"></span>
-                                    <span class="dot"></span>
-                                    <span class="dot"></span>
-                                </div>
-                            </div>
-
-                            <div class="taal">
-                                <h4>Engels</h4>
-                                <div class="dots">
-                                    <span class="dot active"></span>
-                                    <span class="dot active"></span>
-                                    <span class="dot active"></span>
-                                    <span class="dot"></span>
-                                    <span class="dot"></span>
-                                    <span class="dot"></span>
-                                    <span class="dot"></span>
-                                </div>
-                            </div>
-
-                            <div class="taal">
-                                <h4>Russisch</h4>
-                                <div class="dots">
-                                    <span class="dot active"></span>
-                                    <span class="dot active"></span>
-                                    <span class="dot active"></span>
-                                    <span class="dot active"></span>
-                                    <span class="dot active"></span>
-                                    <span class="dot active"></span>
-                                    <span class="dot active"></span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card hobby">
-                            <h3>Hobby</h3>
-                                <div class="icons">
-                                    <img src="./image & icons/paint.svg">
-                                    <img src="./image & icons/digital drow.svg">
-                                    <img src="./image & icons/watching films.svg">
-                                </div>
-                                <div class="icons">
-                                    <img src="./image & icons/guitar.svg">
-                                    <img src="./image & icons/piano.svg">
-                                    <img src="./image & icons/sewing.svg">
-                                </div>
+                    
+                    <div class="sidebar-section margin-top-large">
+                        <h4 class="sidebar-title">CONTACT</h4>
+                        <div class="info-item border-none contact-links">
+                            <a href="tel:+32465630603">+32 465 63 06 03</a>
+                            <a href="mailto:kamillagalimzianova@gmail.com">kamillagalimzianova@gmail.com</a>
+                            <a href="https://www.linkedin.com/in/kamilla-galimzianova-b71980315/">LinkedIn</a>
                         </div>
                     </div>
-
                 </div>
+            </div>
+        </div>
+    </section>
 
-            </section>
-        </section>
-
-        <section class="projecten">
-            <h2>Mijn Projecten</h2>
-
-            <div class="Projecten-item">
-                <div class="project">
-                    <div class="center">
-                        <img src="./image & icons/Frame 1.png" alt="">
-                        <h3>Project 1</h3>
-                    </div>
-                    <p>Het ontwerp is door mij gemaakt in Figma en het logo is ontworpen in Adobe Illustrator. De website is gebouwd met HTML en CSS.</p>
-                    <p class="tools">Figma / HTML / CSS </p>
-                    <button>Kijk Meer</button>
+    <section id="projects" class="projects section">
+        <div class="container">
+            <div class="projects-header">
+                <div>
+                    <p class="subtitle">02 — PROJECTEN</p>
+                    <h2 class="section-title">Geselecteerd <span class="highlight">werk</span>.</h2>
                 </div>
-                <div class="project">
-                    <div class="center">
-                        <img src="./image & icons/Frame 2.png" alt="">
-                        <h3>Project 2</h3>
-                    </div>
-                    <p>Het ontwerp is gemaakt in Figma en het logo is ontworpen in Adobe Illustrator. De website is gerealiseerd met WordPress en plugins zoals Elementor.</p>
-                    <p class="tools">Figma / WordPress  </p>
-                    <button>Kijk Meer</button>
-                </div>
-                <div class="project">
-                    <div class="center">
-                        <img src="./image & icons/Frame 3.png" alt="">
-                        <h3>Project 3</h3>
-                    </div>
-                    <p>De tijdschriftcover is ontworpen in Adobe Photoshop en toont mijn vaardigheden in grafisch ontwerp. Het eindresultaat wordt gepresenteerd met mock-ups.</p>
-                    <p class="tools">Photoshop </p>
-                    <button>Kijk Meer</button>
+                <div class="projects-intro">
+                    <p>Een greep uit persoonlijke en schoolprojecten die mijn aanpak tonen: doordacht ontwerp, zorgvuldige uitvoering en aandacht voor het probleem achter de opdracht.</p>
                 </div>
             </div>
 
-            <div class="uitleg">
-                <h3>Uitleg</h3>
-                <ul>
-                    <li>Het ontwerp van mijn projecten heb ik gemaakt met tools zoals Figma, Adobe Photoshop en Adobe Illustrator.</li>
-                    <li>De websites zijn ontwikkeld met HTML, CSS en JavaScript.</li>
-                    <li>Daarnaast heb ik ervaring met CMS-systemen en weet ik efficiënt met deze platforms te werken.</li>
-                </ul>
-            </div>
-            <div>
-                <button class="leerdoel-knop knopje"><a href="./Paginas/situering.html">Leerdoelen van de digitale vormgever</a></button>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="./image & icons/Frame 1.png">
+                </div>
+                <div class="project-info">
+                    <p class="project-num">01</p>
+                    <h3 class="project-title">Website</h3>
+                    <p class="project-desc">Het ontwerp is door mij gemaakt in Figma en het logo is ontworpen in Adobe Illustrator. De website is gebouwd met HTML en CSS.</p>
+                    <div class="tech-stack">
+                        <span class="tech-badge">Figma</span>
+                        <span class="tech-badge">HTML</span>
+                        <span class="tech-badge">CSS</span>
+                    </div>
+                </div>
             </div>
 
-        </section>
-    </main>
+            <div class="project-card reverse">
+                <div class="project-info">
+                    <p class="project-num">02</p>
+                    <h3 class="project-title">WordPress Website</h3>
+                    <p class="project-desc">Het ontwerp is gemaakt in Figma en het logo is ontworpen in Adobe Illustrator. De website is gerealiseerd met WordPress en plugins zoals Elementor.</p>
+                    <div class="tech-stack">
+                        <span class="tech-badge">Figma</span>
+                        <span class="tech-badge">WordPress</span>
+                        <span class="tech-badge">Elementor</span>
+                    </div>
+                </div>
+                <div class="project-image">
+                    <img src="./image & icons/Frame 2.png">
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="./image & icons/Frame 3.png">
+                </div>
+                <div class="project-info">
+                    <p class="project-num">03</p>
+                    <h3 class="project-title">Tijdschriftcover</h3>
+                    <p class="project-desc">De tijdschriftcover is ontworpen in Adobe Photoshop en toont mijn vaardigheden in grafisch ontwerp. Het eindresultaat wordt gepresenteerd met mock-ups.</p>
+                    <div class="tech-stack">
+                        <span class="tech-badge">Photoshop</span>
+                        <span class="tech-badge">Illustrator</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="wpl2" class="wpl2 section">
+        <div class="container">
+            <p class="subtitle">03 — WPL2 CASE</p>
+            <h2 class="section-title">Een echte opdracht,<br>een echte <span class="highlight">deadline</span>.</h2>
+            
+            <div class="layout-grid-sidebar">
+                <div class="text-column wpl2-text">
+                    <div class="wpl2-block">
+                        <h3>De opdracht</h3>
+                        <p>Voor WPL2 heeft ons team gewerkt aan een website en een app voor een lokale organisatie. De klant was op zoek naar iemand die het merk van het bedrijf kon rebranden en een nieuw ontwerp voor de website en de app kon maken.</p>
+                        <p>We hebben het hele proces in zestien weken doorlopen: informatieverzameling, het vaststellen van de vereisten, de architectuur, het ontwerp, de implementatie en de oplevering.</p>
+                    </div>
+                    
+                    <div class="wpl2-block">
+                        <h3>Mijn bijdrage</h3>
+                        <p>Bij Qern was ik verantwoordelijk voor de concurrentieanalyse en het designonderzoek. Mijn hoofdtaak bestond uit het herontwerpen van de website en het ontwikkelen van het logo en de algehele merkidentiteit. Het doel hiervan was om een professionele uitstraling te creëren die de kernactiviteiten van het bedrijf helder weerspiegelt.</p>
+                        <p>Tijdens dit project heb ik intensief gewerkt met software zoals Figma, Adobe Photoshop en Illustrator. Aangezien het om een groepsproject ging, werkte ik nauw samen met het team; we wisselden voortdurend ideeën uit en stuurden het ontwerpproces gezamenlijk aan.</p>
+                        <p>Dankzij dit project heb ik mijn vaardigheden op het gebied van teamwork verder ontwikkeld. Ik heb geleerd om constructieve feedback effectief te verwerken, kwalitatief en professioneel werk af te leveren en te leren van fouten om zo tot het beste resultaat te komen.</p>
+                    </div>
+                </div>
+
+                <div class="sidebar-box dark-sidebar">
+                    <div class="info-item-dark">
+                        <span class="label">ROL</span>
+                        <span class="value">Digitale Vormgever</span>
+                    </div>
+                    <div class="info-item-dark">
+                        <span class="label">TEAM</span>
+                        <span class="value">7 studenten</span>
+                    </div>
+                    <div class="info-item-dark">
+                        <span class="label">DUUR</span>
+                        <span class="value">16 weken</span>
+                    </div>
+                    <div class="info-item-dark border-none">
+                        <span class="label">TECHNIEKEN</span>
+                        <span class="value">Figma, Photoshop, Illustrator</span>
+                    </div>
+                    
+                    <a href="wpl.html" class="btn-sidebar">Naar deliverables &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="andere" class="hobbies section">
+        <div class="container">
+            <h2 class="section-title">Wat me <span class="highlight">drijft</span><br>naast studie.</h2>
+            
+            <div class="hobbies-grid">
+                <div class="hobby-card">
+                    <img src="./image & icons/digital paint.webp" alt="Digital tekenen">
+                    <div class="hobby-content">
+                        <h3>Digital Tekenen</h3>
+                        <p>In mijn vrije tijd ben ik ook veel bezig met creatieve projecten: ik maak digitale tekeningen. Ik ben zeer vaardig met het grafische tablet en kan uitstekend overweg met verschillende tekenprogramma's en software voor digitale kunst</p>
+                    </div>
+                </div>
+                <div class="hobby-card">
+                    <img src="./image & icons/paint.webp" alt="Teken & schilderen">
+                    <div class="hobby-content">
+                        <h3>Tekenen & schilderen</h3>
+                        <p>ik hou ervan om portretten, landschappen en cartoonpersonages te tekenen. Daarnaast schilder ik graag, wat me helpt om mijn artistieke gevoel verder te ontwikkelen en nieuwe inspiratie op te doen.</p>
+                    </div>
+                </div>
+                <div class="hobby-card">
+                    <img src="./image & icons/piano.webp" alt="Piano spelen">
+                    <div class="hobby-content">
+                        <h3>Piano spelen</h3>
+                        <p>Daarnaast speel ik piano. Ik vind het heerlijk om mijn creativiteit niet alleen via het tekenen te ontwikkelen, maar ook via de muziek — zowel door zelf piano te spelen als door te luisteren naar mooie, inspirerende melodieën.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact section">
+        <div class="container contact-inner">
+            <h2 class="section-title">Op zoek naar een stagiair <span class="highlight">voor WPL3 & 4?</h2>
+            <p>Laten we kennismaken. Ik kom graag langs voor een gesprek.</p>
+            <a href="mailto:kamillagalimzianova@gmail.com" class="btn btn-primary">Neem contact op</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-inner">
+            <p>© 2026 Kamilla Galimzianova</p>
+            <div class="footer-links">
+                <a href="#hero" class="scroll-top">Naar boven</a>
+                <a href="mailto:kamillagalimzianova@gmail.com">E-mail</a>
+                <a href="https://www.linkedin.com/in/kamilla-galimzianova-b71980315/">LinkedIn</a>
+                <a href="./wpl.html">WPL Archief</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
